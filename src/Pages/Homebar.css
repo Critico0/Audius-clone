@@ -1,0 +1,23 @@
+.home-navbar {
+    padding-left: 20px;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    flex: 1;
+    border: 1px solid gray;
+    border-left: none;
+  }
+
+.genres{
+    display: flex;
+}
+
+.genres span{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
