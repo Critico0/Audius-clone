@@ -7,11 +7,11 @@ function Homebar() {
     <div className='home-navbar'>
         <h1>Trending</h1>
             <div className='genres'>
-                <span>All Genres</span>
-                <span>Electronic</span>
-                <span>Hip-Hop/Rap</span>
-                <span>Alternative</span>
-                <span>...</span>
+                <span className='genre'>All Genres</span>
+                <span className='genre'>Electronic</span>
+                <span className='genre'>Hip-Hop/Rap</span>
+                <span className='genre'>Alternative</span>
+                <span className='dots'>...</span>
             </div>
     </div>
   )
