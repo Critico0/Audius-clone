@@ -1,0 +1,12 @@
+.navbar{
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    position: absolute;
+    left: 16rem;
+    width: 20rem;
+}
