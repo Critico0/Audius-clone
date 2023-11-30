@@ -6,6 +6,9 @@ function Sidebar() {
   return (
     <div className="sidebar">
         <div className='sidebar-content'>
+            <section className='section-logo'>
+                <img src='/Audiuslogo.png' className='logo'/>
+            </section>
             <section className='discover'>
                 <h3>DISCOVER</h3>
                     <ul>
