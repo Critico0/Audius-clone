@@ -1,8 +1,8 @@
 .home-navbar {
     padding-left: 20px;
     display: flex;
+    flex-direction: column;
     height: fit-content;
-    justify-content: space-between;
     flex: 1;
     border: 1px solid #f2f1f7;
     border-left: none;
@@ -47,3 +47,28 @@
     background-color: #9b4ad4;
     color: white;
 }
+
+.home-content{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: space-between;
+}
+
+.search-bar{
+    margin-left: 3rem;
+    position: relative;
+}
+
+.search {
+    padding-left: 2rem; 
+    height: 1rem;
+    padding-top: 0.2rem;
+}
+
+.search-icon {
+    position: absolute;
+    left: 0.7rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
